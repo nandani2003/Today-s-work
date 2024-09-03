@@ -13,3 +13,4 @@ class MyClass
   c1.init("tanu","21")
   c1.display()
 end
+12
