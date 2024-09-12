@@ -1,0 +1,38 @@
+*{
+margin: 0;
+padding: 0;
+}
+html{
+  text-align: center;
+}
+
+.center {
+  justify-content: center;
+  align-items: center;
+}
+
+#display{
+  display: none;
+  width: 40%;
+  border-collapse: collapse;
+  margin-top: 0 auto;
+  text-align:  center;
+}
+#display,th,td{
+  border: 1px solid black;
+  padding:8px;
+  text-align: center;
+}
+th,td{
+  padding: 10px;
+  text-align: center;
+}
+th{
+  background-color: bisque;
+}
+
+
+
+ 
+
+ 
