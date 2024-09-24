@@ -1,22 +1,16 @@
-module Abc
-  def normal
-    puts "Normal hai yar"
+module Swim
+  def fish
+    puts "Knows swimming"
   end
 end
-module Bcd
-  def ultimate
-    puts "Pagalkahane Jaa"
+module Fly
+  def bird
+    puts "fly in the sky"
   end
 end
-class Loki
-  include Abc
-  include Bcd
-  def myfun
-    puts "Loki hai"
-  end
+class Duck
+  include Swim
+  extend Fly
 end
-l1=Loki.new
-
-l1.normal
-l1.ultimate
-l1.myfun
+d1=Duck.new.fish
+Duck.bird
